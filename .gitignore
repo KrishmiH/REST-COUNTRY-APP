@@ -1,0 +1,45 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Serverless Functions (Vercel will build them)
+.serverless/
+.vercel/
+.netlify/
+
+# dotenv environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Vercel build output
+.next/
+
+# Mac system files
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.csv
+
+# Temporary files
+tmp/
+temp/
+
+# Coverage reports
+coverage/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+Thumbs.db
+.vercel
